@@ -15,9 +15,8 @@ public class DemoController {
         return "hello1";
     }
 
-    @GetMapping("/hello3")
-    public String hello3(){
-        return "hello3";
+    @GetMapping("/hello2")
+    public String hello2(){
+        return "hello2";
     }
-
 }
