@@ -14,4 +14,10 @@ public class DemoController {
     public String hello1(){
         return "hello1";
     }
+
+    @GetMapping("/hello3")
+    public String hello3(){
+        return "hello3";
+    }
+
 }
